@@ -1,4 +1,4 @@
-# Audio spectrum display on a TFT
+# ADC signal spectrum display on a TFT
 
 This sketch is for RP2040 board connected to a 320 x 240 TFT display. It samples signals on ADC channel 0 and displays the frequency spectra on a TFT display.  The sketch uses FFT analysis to extract the frequency spectrum from the signal.
 
