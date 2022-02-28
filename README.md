@@ -36,7 +36,7 @@ The display update uses DMA so that the display can be updated while an FFT and 
 
 To stabilise the 'scope trace the sketch uses a simple method to determine a rising edge trigger point.
 
-The sketch requires the Earle Philhower RP2040 board package (includes PDM microphone library) to be used:
+The sketch requires the Earle Philhower RP2040 board package to be used:
 https://github.com/earlephilhower/arduino-pico
 
 The TFT_eSPI library is also used, available using the Arduino IDE library manager or here:
