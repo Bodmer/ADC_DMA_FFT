@@ -2,6 +2,10 @@
 
 This sketch is for RP2040 board connected to a 320 x 240 TFT display. It samples signals on ADC channel 0 and displays the frequency spectra on a TFT display.  The sketch uses FFT analysis to extract the frequency spectrum from the signal.
 
+This is the "tone" square wave from an I/O pin being sampled. The 500Hz tone peakis seen plus the odd harmonics as expected.
+
+      ![Tone FFT](https://i.imgur.com/mkkX7Cf.png)
+
 The spectrum can be displayed as a spectrum (frequency .v. amlitude) format, or as a scrolling waterfall (frequency .v. time).
 
 The peaks are displayed and decay. The waveform can also be displayed.
